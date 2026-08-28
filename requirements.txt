@@ -1,0 +1,21 @@
+numpy==2.5.2
+pandas==3.0.5
+matplotlib==3.11.1
+seaborn==0.13.2
+scikit-learn==1.9.0 # Used to build, train, evaluate, and preprocess machine learning models.
+xgboost==3.4.1 # Used to build powerful gradient boosting machine learning models.
+
+scipy==1.18.1 #  Used for scientific calculations and advanced mathematical operations.
+joblib==1.5.3 #  Used to save trained ML models and load them later for predictions.
+pydantic==2.13.4 #  Used to validate and structure data received by the API.
+pydantic-settings==2.15.0 #  Used to manage application configuration and environment variables.
+
+PyYAML==6.0.3 # Used to read and work with YAML configuration files.
+
+fastapi==0.141.1 #  Used to build the backend API that serves machine learning predictions.
+uvicorn==0.52.4 #  Used to run the FastAPI application as a web server.
+requests==2.34.2 # Used to send HTTP requests and communicate with APIs.
+streamlit==1.62.0 # Used to create an interactive web interface for the ML application 
+
+# python -m venv .venv
+# .\.venv\Scripts\activate
