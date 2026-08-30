@@ -1,0 +1,31 @@
+Modularity
+Modularity is like you can have ML related code in seperated file.
+You can have business logic in separate file.
+so, for backend engineers, it will be provide scalable and effective to work.
+
+so, main.py should not do all the work rather we have to split the responsibilities.
+
+service directory has 4 directory
+
+1. API
+2. config
+3. scehams
+
+4. Services
+Services has predictor.py file -> this is the business logic of bascially the script that does the
+actual work. 
+So, actual work is getting the input features and giving a prediction.
+
+then, API router and main.py should later enable this.
+
+__init__.py created inside service folder or directory because we  will later import it in a 
+different python script in this backend.
+
+and also __init__.py will treat the service directory as a Python module like python library. 
+so, you dont have a content or code over this __init__.py file. just need a empty file,
+
+
+1. config folder -> settings.py will handle configurations services
+2. service folder -> predictor.py will handle business logic
+3. main.py -> front door for our applications
+4. api -> routes.py for routing it.
