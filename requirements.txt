@@ -3,7 +3,7 @@ pandas==3.0.5
 matplotlib==3.11.1
 seaborn==0.13.2
 scikit-learn==1.9.0 # Used to build, train, evaluate, and preprocess machine learning models.
-xgboost==3.4.1 # Used to build powerful gradient boosting machine learning models.
+xgboost-cpu==3.4.1 # Used to build powerful gradient boosting machine learning models.
 
 scipy==1.18.1 #  Used for scientific calculations and advanced mathematical operations.
 joblib==1.5.3 #  Used to save trained ML models and load them later for predictions.
