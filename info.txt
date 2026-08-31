@@ -29,3 +29,62 @@ so, you dont have a content or code over this __init__.py file. just need a empt
 2. service folder -> predictor.py will handle business logic
 3. main.py -> front door for our applications
 4. api -> routes.py for routing it.
+
+
+# src folder
+
+# i. backend folder - 3rd folder to be used
+
+    a. config folder - 1st file of backend to explore
+    settings.py - 7th step
+    __init__.py - 8th step
+
+
+    b. service folder  - 2nd file to explore
+    predictor.py - 9th step
+    __init__.py  - 10th step 
+
+    c. scehams folder  - 3rd file to explore
+    predictor_schema.py - 11th step
+    __init__.py  - 12th step
+ 
+    d. api folder - 4th file to explore
+    routes.py - 13th step
+    __init__.py - 14th step
+
+    e. main.py - 5th file to explore and 15th step
+
+# ii.  training folder  - 1st folder to be used
+       a. config folder
+       
+        best_hyperparamters.py  - 1st file / 1 step
+        settings.py - 2nd file /  2 step
+        __init__.py, - 3rd empty file created for 1st folder /  2 step
+
+       b. diabetes.py - 5th or 6th step
+       c. heart_disease.py - 5th or 6th step
+
+# iii. utils folder - 2nd folder to be used 
+
+        a. preprocessing_util.py - 4th step  
+        (here in before model training the function is save because pipeline does not save that)
+
+# iv.  front-end folder
+
+        a. config folder
+        settings.py - 16th step
+        __init__.py - 17 step 
+
+        b. pages folder
+        diabetes_prediction - 18th or 19th step - write streamlit code 
+        heart_disease.py - 18th or 19th step    - write streamlit code 
+
+        c. app.py  - 18th step (home page creation)
+
+# NOTW: ON streamlit - >1 imp configuration we need to provide is API URL IT MENAS
+# SAVE API_url = http://127.0.0.1:8000/api/predict 
+
+
+
+
+
